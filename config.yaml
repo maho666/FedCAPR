@@ -1,0 +1,42 @@
+task_id: "fedcap_loss_crossepoch_1"
+
+gpu: 1
+test_mode: "test_in_client"
+test_method: "average"
+
+save_root: "/home/tchsu/EasyFL/logs/"
+
+server:
+  test_all: False
+  clients_per_round: 8
+  test_every: 10
+  rounds: 20
+  batch_size: 32
+  save_model_every: 10
+  aggregation_strategy: "FedAvg"
+  # track: True
+  
+client:
+  local_epoch: 5
+  local_test: False
+  batch_size: 32
+  # track: True
+  optimizer:
+    type: "Adam"
+    lr: 0.00035
+    weight_decay: 5e-4
+  cluster:
+    thresh: 0.5
+    min_samples: 4
+    
+tracking:  # The configurations for logging and tracking.
+  database: ""  # The path of local dataset, sqlite3.
+  log_file: ""
+  log_level: "INFO"  # The level of logging.
+  metric_file: ""
+  save_every: 1 
+
+resource_heterogeneous:
+  grouping_strategy: "none"
+
+

@@ -1,0 +1,67 @@
+initial model appended dataset augtocluster
+Duke
+	updated_label: num_class= 388, 3826/16522 images are associated.
+	homogeneity: 0.187, completeness: 0.648, vmeasure: 0.290, silhouette: -0.028
+	pos_dist:0.9029396713951099	hard_pos_mean:0.999284402972549	hard_neg_mean:0.9707447251952694
+Market
+	updated_label: num_class= 203, 1399/12936 images are associated.
+	homogeneity: 0.092, completeness: 0.667, vmeasure: 0.162, silhouette: -0.099
+	pos_dist:0.870817794449125	hard_pos_mean:0.9749460648307653	hard_neg_mean:0.9607597324181425
+ilids
+	updated_label: num_class= 532, 13442/14880 images are associated.
+	homogeneity: 0.905, completeness: 0.627, vmeasure: 0.741, silhouette: 0.427
+	pos_dist:0.9008708706523602	hard_pos_mean:1.0	hard_neg_mean:1.0
+cuhk03-np-detected
+	updated_label: num_class= 854, 5523/14730 images are associated.
+	homogeneity: 0.361, completeness: 0.762, vmeasure: 0.490, silhouette: 0.060
+	pos_dist:0.8407057202086703	hard_pos_mean:0.9998002655539875	hard_neg_mean:0.9739429789492094
+prid
+	updated_label: num_class= 1021, 14138/14976 images are associated.
+	homogeneity: 0.947, completeness: 0.815, vmeasure: 0.876, silhouette: 0.502
+	pos_dist:0.6797605574130416	hard_pos_mean:0.923483804270492	hard_neg_mean:0.9966719586736427
+viper
+	updated_label: num_class= 632, 12640/12640 images are associated.
+	homogeneity: 1.000, completeness: 0.893, vmeasure: 0.943, silhouette: 0.970
+	pos_dist:0.5252189311187099	hard_pos_mean:0.9999857058630713	hard_neg_mean:0.9999485823927042
+cuhk01
+	updated_label: num_class= 1512, 11582/11640 images are associated.
+	homogeneity: 0.994, completeness: 0.847, vmeasure: 0.914, silhouette: 0.861
+	pos_dist:0.6788349607581745	hard_pos_mean:0.9987939097524919	hard_neg_mean:0.9943087084033233
+3dpes
+	updated_label: num_class= 479, 13299/13500 images are associated.
+	homogeneity: 0.987, completeness: 0.708, vmeasure: 0.825, silhouette: 0.716
+	pos_dist:0.818388094383416	hard_pos_mean:1.0	hard_neg_mean:0.9999983683726694
+
+appended dataset augtocluster
+Duke
+	updated_label: num_class= 858, 15764/16522 images are associated.
+	homogeneity: 0.933, completeness: 0.912, vmeasure: 0.922, silhouette: 0.719
+	pos_dist:0.3355173133454027	hard_pos_mean:0.7353267273828286	hard_neg_mean:0.996466174396847
+Market
+	updated_label: num_class= 701, 12518/12936 images are associated.
+	homogeneity: 0.937, completeness: 0.954, vmeasure: 0.946, silhouette: 0.727
+	pos_dist:0.28418858748753123	hard_pos_mean:0.572917644180723	hard_neg_mean:0.993181460237329
+ilids
+	updated_label: num_class= 390, 13968/14880 images are associated.
+	homogeneity: 0.940, completeness: 0.655, vmeasure: 0.772, silhouette: 0.521
+	pos_dist:0.8894260589769604	hard_pos_mean:1.0	hard_neg_mean:1.0
+cuhk03-np-detected
+	updated_label: num_class= 970, 14629/14730 images are associated.
+	homogeneity: 0.979, completeness: 0.957, vmeasure: 0.968, silhouette: 0.822
+	pos_dist:0.30380881212284433	hard_pos_mean:0.5813557798219555	hard_neg_mean:0.9973661781385486
+prid
+	updated_label: num_class= 929, 14874/14976 images are associated.
+	homogeneity: 0.995, completeness: 0.841, vmeasure: 0.911, silhouette: 0.641
+	pos_dist:0.6317993482854395	hard_pos_mean:0.9130931777362251	hard_neg_mean:0.9998916459414695
+viper
+	updated_label: num_class= 632, 12640/12640 images are associated.
+	homogeneity: 1.000, completeness: 0.893, vmeasure: 0.943, silhouette: 0.987
+	pos_dist:0.5116201363645397	hard_pos_mean:0.9998649899859596	hard_neg_mean:0.9999994014448758
+cuhk01
+	updated_label: num_class= 635, 11636/11640 images are associated.
+	homogeneity: 0.998, completeness: 0.969, vmeasure: 0.983, silhouette: 0.769
+	pos_dist:0.3317378365060254	hard_pos_mean:0.6232585624065188	hard_neg_mean:0.9996947999877208
+3dpes
+	updated_label: num_class= 459, 13404/13500 images are associated.
+	homogeneity: 0.994, completeness: 0.714, vmeasure: 0.831, silhouette: 0.786
+	pos_dist:0.8034317841073941	hard_pos_mean:1.0	hard_neg_mean:0.9999999756347321
